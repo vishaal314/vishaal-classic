@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/chat", "destination": "/api/chat" }
+  ],
+  "functions": {
+    "chat.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
